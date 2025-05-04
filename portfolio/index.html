@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Harneet Dhiman - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo" tabindex="0" aria-label="Harneet Dhiman Portfolio">Harneet Dhiman</div>
+    <div class="nav-toggle" aria-label="Toggle navigation menu" tabindex="0" role="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Home Section -->
+  <section id="home" tabindex="0" aria-label="Introduction section">
+    <h1 class="fade-in">Harneet Dhiman</h1>
+    <p class="fade-in delay-1">Passionate Developer | Problem Solver | Tech Enthusiast</p>
+    <a href="#projects" class="btn-primary fade-in delay-2" aria-label="View my projects">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" tabindex="0" aria-label="About me section" class="container fade-in delay-3">
+    <div class="about-img" aria-hidden="true">
+      <img src="my.jpg" alt="Harneet Dhiman portrait" />
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am Harneet Dhiman, a motivated and detail-oriented software developer with expertise in building dynamic and responsive web applications. I enjoy working with cutting-edge technologies and continuously learning new skills to deliver innovative solutions. My passion lies in turning complex problems into seamless experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" tabindex="0" aria-label="Skills section" class="container fade-in delay-4">
+    <h2>Skills</h2>
+    <div class="skills-wrapper">
+      <div class="skill">
+        <div class="skill-name">HTML5</div>
+        <div class="skill-bar"><span style="width: 90%;"></span></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS3</div>
+        <div class="skill-bar"><span style="width: 85%;"></span></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar"><span style="width: 85%;"></span></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">React</div>
+        <div class="skill-bar"><span style="width: 75%;"></span></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Node.js</div>
+        <div class="skill-bar"><span style="width: 70%;"></span></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Git</div>
+        <div class="skill-bar"><span style="width: 80%;"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" tabindex="0" aria-label="Projects section" class="container fade-in delay-5">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <article class="project-card" tabindex="0" aria-label="Project: Portfolio Website">
+        <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120" alt="Portfolio website screenshot" />
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio built with HTML, CSS, and JavaScript showcasing skills and projects.</p>
+          <a href="https://github.com/harneetdhiman/portfolio" target="_blank" rel="noopener noreferrer" aria-label="View portfolio project on GitHub">GitHub</a>
+        </div>
+      </article>
+      <article class="project-card" tabindex="0" aria-label="Project: Task Manager App">
+        <img src="https://images.pexels.com/photos/1181353/pexels-photo-1181353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120" alt="Task Manager app screenshot" />
+        <div class="project-info">
+          <h3>Task Manager App</h3>
+          <p>A responsive task management app built using React and Node.js for seamless productivity.</p>
+          <a href="https://github.com/harneetdhiman/task-manager" target="_blank" rel="noopener noreferrer" aria-label="View task manager project on GitHub">GitHub</a>
+        </div>
+      </article>
+      <article class="project-card" tabindex="0" aria-label="Project: Weather Dashboard">
+        <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=120" alt="Weather Dashboard screenshot" />
+        <div class="project-info">
+          <h3>Weather Dashboard</h3>
+          <p>A web dashboard fetching current weather from API, built using vanilla JavaScript and CSS.</p>
+          <a href="https://github.com/harneetdhiman/weather-dashboard" target="_blank" rel="noopener noreferrer" aria-label="View weather dashboard project on GitHub">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" tabindex="0" aria-label="Experience section" class="container fade-in delay-5">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item" tabindex="0" aria-label="Experience: Software Developer at XYZ Corp">
+        <span class="circle"></span>
+        <h3>Software Developer - XYZ Corp</h3>
+        <span>Jan 2021 - Present</span>
+        <p>
+          Developing and maintaining web applications using modern JavaScript frameworks. Collaborated in agile teams to deliver feature-rich software for clients.
+        </p>
+      </div>
+      <div class="timeline-item" tabindex="0" aria-label="Experience: Junior Developer at ABC Ltd">
+        <span class="circle"></span>
+        <h3>Junior Developer - ABC Ltd</h3>
+        <span>Jun 2019 - Dec 2020</span>
+        <p>
+          Assisted in frontend development tasks and bug fixing. Gained experience with REST APIs and version control using Git.
+        </p>
+      </div>
+      <div class="timeline-item" tabindex="0" aria-label="Education: Bachelor of Computer Science">
+        <span class="circle"></span>
+        <h3>Bachelor of Computer Science - University of Technology</h3>
+        <span>2015 - 2019</span>
+        <p>
+          Graduated with Honors. Specialized in web technologies and software engineering principles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" tabindex="0" aria-label="Contact section" class="container fade-in">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form id="contactForm" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required aria-required="true" />
+      
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required aria-required="true" />
+      
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required aria-required="true"></textarea>
+      
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info" aria-live="polite" aria-atomic="true"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2024 Harneet Dhiman. All rights reserved.
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
+
