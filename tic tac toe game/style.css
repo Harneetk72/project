@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+  }
+  h1 {
+    margin-bottom: 20px;
+  color: #0fa;
+    font-size: 4rem;
+}
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+     color:#FFFF33;
+      color:rgb(255 255 51); 
+    color:hsl(60deg 100.00% 60.00%); 
+    padding: 5px;
+    border-radius: 8px;
+    /* margin-top: 700px; */
+  }
+  .cell {
+    border: 2px solid #333;
+    font-size: 64px;
+    text-align: center;
+    line-height: 100px;
+    cursor: default;
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+  .cell:hover {
+    background: #ddd;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+   #new-game{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+            display: inline-block;
+            color:  #0fa;
+            text-transform: uppercase;
+            text-decoration: none;
+            overflow: hidden;
+            margin-bottom: 3px;
+   }
+        #new-game:hover {
+            color: #111;
+            background:  #0fa;
+            box-shadow: 0 0 50px  #0fa;
+        }
+  
+  #reset-game{
+        background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+            display: inline-block;
+            color:  #0fa;
+            text-transform: uppercase;
+            text-decoration: none;
+            overflow: hidden;
+          
+        }
+
+        /*creating animation effect*/
+        #reset-game:hover {
+            color: #111;
+            background: #0fa;
+            box-shadow: 0 0 50px  #0fa;
+        }
+  button:hover {
+    background-color: #555;
+  }
+ .msg-container{
+  background-color: #000000;
+  width: 500px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  }
+ #msg{
+  color:  #0fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.hide{
+  display: none;
+}
